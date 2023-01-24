@@ -1,0 +1,4 @@
+const arr = [true, true, false, true, false, false, true, false, false, true,];
+const count1 = arr.filter(value => value === true).length;
+
+console.log(count1);
